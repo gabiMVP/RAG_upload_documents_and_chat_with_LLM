@@ -1,0 +1,33 @@
+[project]
+name = "chatllmrag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "y"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "langchain (==0.3.21)",
+    "python-dotenv (==1.0.1)",
+    "streamlit (==1.42.2)",
+    "openai (==1.66.5)",
+    "flashrank (==0.2.10)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "dvc-gs (>=3.0.1,<4.0.0)",
+    "langchain-community (==0.3.20)",
+    "langchain-core (==0.3.45)",
+    "langchain-openai (==0.3.9)",
+    "langchain-text-splitters (==0.3.7)",
+    "qdrant-client (==1.13.3)",
+    "pypdf (>=5.4.0,<6.0.0)",
+    "fastembed (==0.4.0)",
+    "unstructured (>=0.17.0,<0.18.0)",
+    "markdown (>=3.7,<4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
