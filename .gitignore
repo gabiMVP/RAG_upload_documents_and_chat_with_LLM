@@ -1,0 +1,10 @@
+*.env
+.venv
+db
+pdf_data
+text_data
+.idea
+entrypoint.sh
+requirements.txt
+.gitignore
+.dockerignore
